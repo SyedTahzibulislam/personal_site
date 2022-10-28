@@ -115,3 +115,169 @@ h1 {
 footer {
     text-align: center;
 }
+
+@media (max-width: 575.98px) {
+
+    #sectionone {
+
+        display: flex;
+        flex-direction: column-reverse;
+        column-gap: 5px;
+    }
+
+
+    #secondhalf {
+
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 12px;
+    }
+
+
+
+    #description {
+
+
+        display: flex;
+        flex-direction: column;
+        column-gap: 5px;
+
+    }
+
+
+
+
+
+
+
+    h1 {
+        font-size: 20px;
+    }
+
+    .hightlight-name {
+
+        color: orange;
+    }
+
+    .half-width {
+        display: flex;
+        margin-bottom: 20px;
+
+    }
+
+    .half-width h2 {
+
+        font-size: 15px;
+    }
+
+    .section-one-half-width {
+        width: 90%;
+        padding: 5px;
+    }
+
+    .section-one-half-width img {
+        width: 80%
+    }
+
+    .link-hire-me {
+        text-decoration: none;
+        color: white;
+        background-image: linear-gradient(orange, tomato);
+        padding: 10px 40px;
+        border-radius: 5px;
+        font-weight: 700;
+
+    }
+
+    #sectionone {
+
+        background-image: url('images/top-banner.png');
+        background-repeat: no-repeat;
+    }
+
+    #section2-img {
+
+        width: 80%;
+
+    }
+
+    #section2-img img {
+
+        width: 80%;
+
+    }
+
+    #section2-content {
+
+        width: 80%;
+    }
+
+    #section-2-link {
+
+        padding: 10px 60px;
+        background-image: linear-gradient(orange, tomato);
+        text-decoration: none;
+        color: white;
+        font-weight: 700;
+        border-radius: 5px;
+
+    }
+
+    #section2 {
+        background-image: url('images/dream-bg.png');
+        background-repeat: no-repeat;
+        background-position: right;
+    }
+
+    #full-stack {
+
+        width: 80%;
+        box-shadow: 0 0 20px #d4bebe;
+        padding: 20px;
+        margin-right: 10px;
+        margin-left: 30px;
+        border-left: 10px solid red;
+        border-radius: 5px;
+
+    }
+
+    #junior-developer {
+        width: 80%;
+        box-shadow: 0 0 20px #d4bebe;
+        padding: 20px;
+
+
+        margin-right: 10px;
+        margin-left: 30px;
+        border-left: 10px solid blue;
+        border-radius: 5px;
+
+
+    }
+
+    .section-3 {
+
+        background-image: url('images/exp-bg.png');
+        background-repeat: no-repeat;
+        background-position: left;
+    }
+
+    footer {
+        text-align: center;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
