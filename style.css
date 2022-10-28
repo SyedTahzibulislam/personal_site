@@ -216,7 +216,7 @@ footer {
 
 
         width: 80%;
-        background-image: linear-gradient(orange, tomato);
+        background-image: linear-gradient(orange, rgb(17, 233, 150));
         text-decoration: none;
         color: white;
         font-weight: 700;
