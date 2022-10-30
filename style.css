@@ -33,6 +33,24 @@ h1 {
     width: 80%
 }
 
+.workexpreiecelink {
+    text-decoration: none;
+    color: white;
+    background-color: #d4bebe;
+    padding: 4px;
+
+
+}
+
+.workexpreiecelink:hover {
+
+    color: rgb(243, 9, 9);
+
+
+
+}
+
+
 .link-hire-me {
     text-decoration: none;
     color: white;
